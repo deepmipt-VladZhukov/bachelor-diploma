@@ -1,2 +1,1 @@
-# bachelor-diploma-
-diploma bachelor
+main.pdf - final compiled pdf with diploma
