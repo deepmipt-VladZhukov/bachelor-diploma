@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{bleu}
+\selectlanguageifdefined{english}
+Bleu: a method for automatic evaluation of machine translation~/
+  Kishore~Papineni, Salim~Roukos, Todd~Ward, Wei-Jing~Zhu. \BibDash
+\newblock 2002.
+
+\bibitem{rouge}
+\selectlanguageifdefined{english}
+\BibEmph{Lin,~C.-Y.} Rouge: A package for automatic evaluation of summaries.
+  \BibDash
+\newblock 2004.
+
+\bibitem{eval_empir}
+\selectlanguageifdefined{english}
+\BibEmph{Liu,~C.-W.} How not to evaluate your dialogue system: An empirical
+  study of unsupervised evaluation metrics for dialogue response generation.
+  \BibDash
+\newblock 2016.
+
+\bibitem{seq2seq}
+\selectlanguageifdefined{english}
+\BibEmph{Sutskever,~I.} Sequence to sequence learning with neural networks.
+  \BibDash
+\newblock 2014.
+
+\bibitem{mt}
+\selectlanguageifdefined{english}
+\BibEmph{Barone,~A. V.~M.} Deep architectures for neural machine translation.
+  \BibDash
+\newblock 2017.
+
+\bibitem{first_summ}
+\selectlanguageifdefined{english}
+\BibEmph{Rush,~A.~M.} A neural attention model for abstractive sentence
+  summarization. \BibDash
+\newblock 2015.
+
+\bibitem{teacher_forcing}
+\selectlanguageifdefined{english}
+\BibEmph{Williams,~R.~J.} A learning algorithm for continually running fully
+  recurrent neural networks~/ Ronald~J.~Williams, David~Zipser. \BibDash
+\newblock 1989.
+
+\bibitem{Ranzato}
+\selectlanguageifdefined{english}
+Sequence level training with recurrent neural networks~/ Marc'Aurelio~Ranzato,
+  Sumit~Chopra, Michael~Auli, Wojciech~Zaremba~// \BibEmph{CoRR}. \BibDash
+\newblock 2015. \BibDash
+\newblock Vol. abs/1511.06732. \BibDash
+\newblock \BibUrl{ http://arxiv.org/abs/1511.06732}.
+
+\bibitem{Wiseman}
+\selectlanguageifdefined{english}
+\BibEmph{Wiseman,~S.} Sequence-to-sequence learning as beam-search
+  optimization~/ Sam~Wiseman, Alexander~M.~Rush~// \BibEmph{CoRR}. \BibDash
+\newblock 2016. \BibDash
+\newblock Vol. abs/1606.02960. \BibDash
+\newblock \BibUrl{ http://arxiv.org/abs/1606.02960}.
+
+\bibitem{Minimum_Risk}
+\selectlanguageifdefined{english}
+Minimum risk training for neural machine translation~/ Shiqi~Shen, Yong~Cheng,
+  Zhongjun~He et~al.~// \BibEmph{CoRR}. \BibDash
+\newblock 2015. \BibDash
+\newblock Vol. abs/1512.02433. \BibDash
+\newblock \BibUrl{ http://arxiv.org/abs/1512.02433}.
+
+\bibitem{scg}
+\selectlanguageifdefined{english}
+\BibEmph{Schulman,~J.} Gradient estimation using stochastic computation graphs.
+  \BibDash
+\newblock 2015.
+
+\bibitem{scg_seq2seq}
+\selectlanguageifdefined{english}
+\BibEmph{Golikov,~E.} Using stochastic computation graphs formalism for
+  optimization of sequence-to-sequence model. \BibDash
+\newblock 2017.
+
+\bibitem{scheduled_sampling}
+\selectlanguageifdefined{english}
+\BibEmph{Bengio,~S.} Scheduled sampling for sequence prediction with recurrent
+  neural networks. \BibDash
+\newblock 2015.
+
+\bibitem{pytorch}
+\selectlanguageifdefined{english}
+Automatic differentiation in pytorch~/ Adam~Paszke, Sam~Gross, Soumith~Chintala
+  et~al. \BibDash
+\newblock 2017.
+
+\bibitem{iwslt14}
+\selectlanguageifdefined{english}
+Report on the 11th iwslt evaluation campaign, iwslt 201~/ Mauro~Cettolo,
+  Jan~Niehues, Sebastian~Stuker et~al. \BibDash
+\newblock 2014.
+
+\bibitem{wmt14}
+\selectlanguageifdefined{english}
+\BibEmph{ACL2014}. Ninth workshop on statistical machine translation. \BibDash
+\newblock \BibUrl{ http://www.statmt.org/wmt14/index.html}.
+
+\bibitem{bso}
+\selectlanguageifdefined{english}
+\BibEmph{Wiseman,~S.} Sequence-to-sequence learning as beam-search
+  optimization. \BibDash
+\newblock 2016.
+
+\bibitem{lstm}
+\selectlanguageifdefined{english}
+\BibEmph{Hochreiter,~S.} Long short-term memory~/ Sepp~Hochreiter,
+  Jurgen~Schmidhuber~// \BibEmph{Neural Computation}. \BibDash
+\newblock 1997. \BibDash
+\newblock P.~9:1735–1780.
+
+\bibitem{attn}
+\selectlanguageifdefined{english}
+\BibEmph{Luong,~M.-T.} Effective approaches to attention-based neural machine
+  translation. \BibDash
+\newblock 2015.
+
+\bibitem{adam}
+\selectlanguageifdefined{english}
+\BibEmph{Kingma,~D.~P.} Adam: A method for stochastic optimization. \BibDash
+\newblock 2014.
+
+\end{thebibliography}

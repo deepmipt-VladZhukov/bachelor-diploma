@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: gost780.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in bleu
+Warning--empty journal in teacher_forcing
+Warning--empty journal in pytorch
+Warning--empty journal in iwslt14
+Warning--empty year in wmt14
+You've used 20 entries,
+            4388 wiz_defined-function locations,
+            1406 strings with 14846 characters,
+and the built_in function-call counts, 4424 in all, are:
+= -- 493
+> -- 116
+< -- 11
++ -- 46
+- -- 26
+* -- 246
+:= -- 431
+add.period$ -- 62
+call.type$ -- 20
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 279
+empty$ -- 549
+format.name$ -- 41
+if$ -- 1164
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 0
+newline$ -- 122
+num.names$ -- 16
+pop$ -- 119
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 155
+stack$ -- 0
+substring$ -- 26
+swap$ -- 175
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 9
+width$ -- 22
+write$ -- 222
+(There were 5 warnings)
